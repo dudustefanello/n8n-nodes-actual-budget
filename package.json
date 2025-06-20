@@ -33,12 +33,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/ActualBudgetApi.credentials.ts"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/ActualBudgetNode.node.ts"
     ]
   },
   "devDependencies": {
@@ -53,6 +51,7 @@
     "n8n-workflow": "*"
   },
   "dependencies": {
+    "@actual-app/api": "^25.6.1",
     "n8n": "^1.97.1"
   }
 }
