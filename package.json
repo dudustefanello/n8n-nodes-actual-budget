@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-actual-budget",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "N8N Nodes to Actual Budget",
   "keywords": [
     "n8n-community-node-package"

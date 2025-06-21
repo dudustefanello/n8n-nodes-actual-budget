@@ -21,7 +21,6 @@ export class ActualBudgetTransactionNode implements INodeType {
 		name: 'actualBudgetTransactionNode',
 		group: ['transform'],
 		version: 1,
-		icon: { light: 'file:actual.png', dark: 'file:actual.png' },
 		description: 'Actual Budget API Integration for n8n for list and create Transactions',
 		defaults: {
 			name: 'Actual Budget Transaction',
